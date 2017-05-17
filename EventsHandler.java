@@ -125,7 +125,7 @@ public class EventsHandler implements Listener {
 
         }
     }
-    
+
     @EventHandler(priority = EventPriority.HIGH)
     public void CancelOrbThrow(PlayerInteractEvent e) {
         Player player = e.getPlayer();
