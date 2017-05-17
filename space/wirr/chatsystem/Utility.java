@@ -32,7 +32,7 @@ class Utility {
             }
             File saveTo = new File(dataFolder, fname);
             if (!saveTo.exists()) {
-                
+
                 saveTo.createNewFile();
             }
             FileWriter fw = new FileWriter(saveTo, true);
