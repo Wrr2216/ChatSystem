@@ -20,6 +20,7 @@ class Utility {
 
     //region Util Functions
     void LogMessage(String str) {
+        if (str == null) return;
         pl.getLogger().info(str);
     }
 

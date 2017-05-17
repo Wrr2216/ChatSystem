@@ -1,0 +1,24 @@
+# ## Chat Config ##
+Chat:
+  ranges:
+  ## Local Chat Distance
+    local: 10
+  ## Shout Chat Distance
+    shout: 20
+  ## Whisper Chat Distance
+    whisper: 4
+  ## Me Chat Distance
+    me: 10
+  ## Do Chat Distance
+    do: 10
+  ## OOC Chat Distance
+    ooc: 15
+  ## PM Chat Distance
+    pm: 10
+  globalchat: true
+  ## If set to true PMs will be seen by players close to the sender
+  pmlocal: true
+  ## If set to false emotes like :D, :P, etc will all be blocked
+  emotes: false
+  ## If set to true, 'Serious RP' mode enabled.
+  serious: false

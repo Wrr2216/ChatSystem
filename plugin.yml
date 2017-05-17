@@ -1,0 +1,83 @@
+## This project "ChatSystem" was created by Logan Miller (WiRR) on 4/14/2017.
+description: "Roleplay chat system"
+main: space.wirr.chatsystem.Main
+name: "RPChatSystem"
+version: 1
+author: WiRR
+commands: 
+  rpid: 
+    description: "Show ID Card"
+    permission: rpcsys.rpid
+    permission-message: "You don't have the permissions for this command."
+    usage: "/<command> <set/show> (optional)<var> <args>"
+  do: 
+    description: "Do Command"
+    permission: rpcsys.do
+    permission-message: "You don't have the permissions for this command."
+    usage: "/<command> <message>"
+  l: 
+    aliases: 
+      - local
+    description: "Local area chat."
+    permission: rpcsys.local
+    permission-message: "You don't have the permissions for this command."
+    usage: "/<command> <message>"
+  me: 
+    description: "Me Command"
+    permission: rpcsys.me
+    permission-message: "You don't have the permissions for this command."
+    usage: "/<command> <message>"
+  ooc: 
+    description: "OOC Chat"
+    permission: rpcsys.ooc
+    permission-message: "You don't have the permissions for this command."
+    usage: "/<command> <message>"
+  rpinfo:
+    description: "View the config variables"
+    permission: rpcsys.info
+    permission-message: "You don't have the permissions for this command."
+    usage: /<command>
+  rpreload: 
+    description: "Reloads config"
+    permission: rpcsys.reload
+    permission-message: "You don't have the permissions for this command."
+    usage: /<command>
+  rpmessage: 
+    aliases: 
+      - rpm
+    description: "Private Message."
+    permission: rpcsys.pm
+    permission-message: "You don't have the permissions for this command."
+    usage: "/<command> <player> <message>"
+  rpspy: 
+    description: "Admin spy mode"
+    permission: rpcsys.spy
+    permission-message: "You don't have the permissions for this command."
+    usage: /<command>
+  s: 
+    aliases: 
+      - shout
+    description: "Shout chat."
+    permission: rpcsys.shout
+    permission-message: "You don't have the permissions for this command."
+    usage: "/<command> <message>"
+  rpconfig: 
+    description: "Change Config Variables"
+    permission: rpcsys.config
+    permission-message: "You don't have the permissions for this command."
+    usage: /<command> <var> <value> For ranges use ranges.<var> (e.g. ranges.local)
+  w: 
+    aliases: 
+      - whisper
+      - whisp
+    description: "Whisper chat."
+    permission: rpcsys.whisper
+    permission-message: "You don't have the permissions for this command."
+    usage: "/<command> <message>"
+  call:
+    description: "Call"
+    permission: rpcsys.call
+    usage: "/<command> <player>"
+  tradetest:
+    description: "test trade window"
+    usage: "/<command>"

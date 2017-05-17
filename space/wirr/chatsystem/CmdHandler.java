@@ -22,7 +22,7 @@ public class CmdHandler implements Listener, CommandExecutor {
     Plugin pl = Main.getPlugin();
     Main main = new Main();
     Utility util = new Utility();
-
+    TradeSystem tsys = new TradeSystem();
     //region Commands
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (!(sender instanceof Player)) {
@@ -69,6 +69,9 @@ public class CmdHandler implements Listener, CommandExecutor {
                 return true;
             case "call":
                 OrbHandler.doCall(player, args);
+                return true;
+            case "tradetest":
+                tsys.openWindow(player);
                 return true;
         }
         return false;
